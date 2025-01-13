@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appage AI - Innovative AI Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <h2>Appage AI</h2>
+                </div>
+                <nav>
+                    <button class="talk-btn" onclick="scrollToContact()">Let's Talk</button>
+                    <div class="menu-btn">Menu</div>
+                    <div class="nav-box">
+                        <a href="#about" class="nav-link">About</a>
+                        <a href="#services" class="nav-link">Services</a>
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="about" class="hero-section">
+            <div class="container text-center">
+                <h1 class="hero-heading">Appage AI</h1>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="avatar-section">
+                        <img src="images/hero-avatar.jpg" alt="AI Avatar" class="hero-avatar">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="about-content">
+                        <h6 class="sm-heading">About Us</h6>
+                        <p>Appage AI is at the forefront of AI innovation, delivering intelligent solutions that redefine industries. From machine learning models to automation, we empower businesses with cutting-edge AI technology.</p>
+                        
+                        <div class="skills">
+                            <h6 class="sm-heading">Skills</h6>
+                            <ul>
+                                <li>AI Development</li>
+                                <li>Machine Learning</li>
+                                <li>Automation</li>
+                                <li>AI Strategy</li>
+                                <li>Data Science</li>
+                            </ul>
+                        </div>
+
+                        <div class="social">
+                            <h6 class="sm-heading">Connect</h6>
+                            <div class="social-links">
+                                <a href="https://facebook.com/appageai" class="social-btn"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/appageai" class="social-btn"><i class="fab fa-twitter"></i></a>
+                                <a href="https://instagram.com/appageai" class="social-btn"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h6 class="sm-heading">Projects Done</h6>
+                            <h1 class="stat-number">12</h1>
+                        </div>
+                        <div class="stat-item">
+                            <h6 class="sm-heading">Years of Experience</h6>
+                            <h1 class="stat-number">3+</h1>
+                        </div>
+                        <div class="stat-item">
+                            <h6 class="sm-heading">Worldwide Clients</h6>
+                            <h1 class="stat-number">27</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services Section -->
+        <section id="services" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="title-heading">Services</span>
+                    <h2 class="display-3">What We <span class="text-gradient">Offer</span></h2>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-box">
+                        <div class="service-order">01/</div>
+                        <h3 class="service-title">AI Media Generation</h3>
+                        <p class="service-text">We create AI-powered image generation solutions, delivering custom visuals and designs for your business.</p>
+                    </div>
+
+                    <div class="service-box">
+                        <div class="service-order">02/</div>
+                        <h3 class="service-title">AI Development</h3>
+                        <p class="service-text">Our team builds robust AI applications, from predictive models to intelligent chatbots, optimizing efficiency.</p>
+                    </div>
+
+                    <div class="service-box">
+                        <div class="service-order">03/</div>
+                        <h3 class="service-title">Automation Solutions</h3>
+                        <p class="service-text">We automate workflows using AI, ensuring scalability and increased productivity for businesses of all sizes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section-box">
+            <div class="container">
+                <div class="section-header">
+                    <span class="title-heading">Portfolio</span>
+                    <h2 class="display-3">Recent <span class="text-gradient">Works</span></h2>
+                    <p class="section-description">Discover our latest AI projects, from machine learning models to AI-powered automation solutions, revolutionizing industries and enhancing business workflows.</p>
+                </div>
+
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="images/portfolio-img.jpg" alt="NFT">
+                        <h3 class="portfolio-caption">NFT</h3>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/portfolio-img-3.jpg" alt="Cyber">
+                        <h3 class="portfolio-caption">Cyber</h3>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/portfolio-img-2.jpg" alt="Ai Photo">
+                        <h3 class="portfolio-caption">Ai Photo</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="title-heading">Contact</span>
+                    <h2 class="display-3">Let's <span class="text-gradient">Talk</span></h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <h6 class="sm-heading">Email:</h6>
+                            <h3>info@appageai.com</h3>
+                        </div>
+                        <div class="info-item">
+                            <h6 class="sm-heading">Call:</h6>
+                            <h3>+947 9999 9999</h3>
+                        </div>
+                    </div>
+
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-grid">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <div class="form-response">
+                            <div id="success" class="response-message">Thank you! Your message has been sent.</div>
+                            <div id="error" class="response-message">Something went wrong. Please try again!</div>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Appage AI, All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <div class="scroll-top">
+        <button class="scroll-btn" onclick="scrollToTop()">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
