@@ -1,6 +1,6 @@
 // Initialize EmailJS
 (function() {
-    emailjs.init("ES0GVmUSWaO7EOJ56"); // Account Public Key
+    emailjs.init("uuSSWER-Oh7S4OsL6"); // Account Public Key
 })();
 
 // Handle form submission
